@@ -102,10 +102,10 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // Traff: 1 minute
         nTargetSpacing = 1 * 60;  // Traff: 1 minute
-        nMaturity = 77;
+        nMaturity = 100;
 		nMaxMoneyOut = 10000000000 * COIN;
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 259200;
+        nLastPOWBlock = 201;
         nModifierUpdateBlock = 1;
 		
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
